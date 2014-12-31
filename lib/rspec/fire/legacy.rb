@@ -236,7 +236,7 @@ module RSpec
       end
     end
 
-    class FireObjectDouble < RSpec::Mocks::Mock
+    class FireObjectDouble < RSpec::Mocks::Double
       include FireDoublable
 
       def initialize(doubled_class, *args)
